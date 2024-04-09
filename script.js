@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const requestBody = Object.fromEntries(formData);
 
         try {
-            const response = await fetch('http://localhost:7000/register', {
+            const response = await fetch('https://sodv1201registration-backend.onrender.com/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
